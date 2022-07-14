@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+*{
+    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 15px;
+    background-color:hsl(0, 0%, 100%) ;
+    overflow-x: hidden;
+}
+
+#Hero_section{
+    background: url("./images/desktop/image-hero.jpg");
+    background-size: cover;
+    min-height: 38em;
+
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4em;
+    margin-right: 4em;
+    flex-wrap: wrap;
+    transition: .4s ease-in-out;
+
+}
+#navigation a{
+    color:  hsl(0, 0%, 100%);
+}
+#navigation a:hover{
+    transition: 0.25s;
+    border-bottom: 1px solid #fff;
+    
+}
+.nav{
+    display: flex;
+}
+.nav img{
+    height: 30%;
+
+}
+.nav .ham{
+    display: none;
+}
+@media screen and (min-width:40em) {
+    .ham{
+        display: block;
+    }
+}
+.logo,.nav{
+    margin-top: 3em;
+}
+
+.nav ul{
+    display: flex;
+    
+}
+.nav ul li{
+    padding: 0 1.5em;
+}
+.hero_description{
+
+    margin-left: 4em;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    width: 80%;
+    max-width: 35%;
+    /* text-align: center; */
+}
+.hero_description p{
+    text-transform: uppercase;
+    border: 1px solid white;
+   
+    color: white;
+    font-size: 2.5rem;
+    padding: 1em;
+
+  
+}
+#vr{
+   
+    background:url("./images/desktop/image-interactive.jpg");
+    /* color: white; */
+    background-repeat: no-repeat;
+
+    margin: 4rem;
+
+}
+.edition{
+
+    padding: 20em;
+}
+.edition .container{
+    background-color: white;
+    padding: 4em;
+    width: 80%;
+    max-width: 50%;
+    margin-left: 18em;
+    /* margin-top: 12rem; */
+    position: absolute;
+
+
+
+}
+.container p{
+   /* width: 40%; */
+}
+.container h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 5px;
+    font-weight: 600;
+    /* width: 40%; */
+}
+#creations{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem;
+}
+#creations h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+}
+#creations button{
+    padding: 1em;
+    width: 9rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 41%);
+}
+#creations button:hover{
+    background: #f4f4f4;
+    transition: 0.2s ease-in-out;
+}
+#images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    margin: 4em;
+    flex-wrap: wrap;
+    gap: 1em;
+   
+    
+}
+#images h2{
+    text-transform: uppercase;
+    padding: 2em;
+    color: #fff;
+    margin-top: 9em;
+    width: 50%;
+  
+
+}
+
+#images .deep{
+    background: url("./images/desktop/image-deep-earth.jpg");
+    background-repeat: no-repeat; 
+}
+#images .deep:hover{
+    transform: scale(0.9);
+    transition: 0.25s ease-in-out;
+}
+#images .arcade{
+    background: url("./images/desktop/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+}
+#images .arcade:hover{
+    transform: scale(0.9);
+    transition: 0.25s ease-in-out;
+}
+#images .soccer{
+    background: url("./images/desktop/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+}
+
+#images .soccer:hover{
+    transform: scale(0.9);
+    transition: 0.25s ease-in-out;
+}
+
+#images .grid{
+background: url("./images/desktop/image-grid.jpg");
+background-repeat: no-repeat;
+}
+
+#images .grid:hover{
+    transform: scale(0.9);
+    transition: 0.25s ease-in-out;
+}
+
+#images .above{
+background: url("./images/desktop/image-from-above.jpg");
+background-repeat: no-repeat;
+}
+
+#images .above:hover{
+    transform: scale(0.9);
+    transition: 0.25s ease-in-out;
+}
+
+#images .pocket{
+background: url("./images/desktop/image-pocket-borealis.jpg");
+background-repeat: no-repeat;
+}
+#images .pocket:hover{
+    transform: scale(0.9);
+    transition: 0.25s ease-in-out;
+}
+
+#images .curiosity{
+background: url("./images/desktop/image-curiosity.jpg");
+background-repeat: no-repeat;
+}
+#images .curiosity:hover{
+    transform: scale(0.9);
+    transition: 0.25s ease-in-out;
+}
+
+#images .fish{
+    background: url("./images/desktop/image-fisheye.jpg");
+    background-repeat: no-repeat;
+}
+
+#images .fish:hover{
+    transform: scale(0.9);
+    transition: 0.25s ease-in-out;
+}
+
+footer{
+    background-color: hsl(0, 0%, 0%);
+    color: #fff;
+    
+}
+.logo_container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+.nav2 a{
+    color: #fff;
+    
+ 
+}
+.nav2 ul{
+    display: flex;
+    gap:2em;
+   
+
+
+}
+.nav2 ul li{
+    margin-top: 1em;
+   
+}
+.nav2 ul li a{
+    flex-wrap: wrap;
+}
+.socials a{
+    padding: 1em;
+    color: #fff;
+   
+}
+
+.socials img{
+    width: 5%;
+    margin-bottom: 1em;
+    
+}
+.attribution{
+    background:black;
+    color: #fff;
+    padding: 1em;
+}
+.attribution a{
+    color: aquamarine;
+}
