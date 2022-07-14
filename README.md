@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/cleo-cyber/loopstudios-landing-page-main)
+- Live Site URL: [Live site](https://cleo-cyber.github.io/loopstudios-landing-page-main/)
 
 ## My process
 
